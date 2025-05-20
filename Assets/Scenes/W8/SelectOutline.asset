@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: SelectOutline
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-268.0,"y":-82.75},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-426.0,"y":-240.0},"guid":"d2931b1b-ad83-4c9c-b15a-86bc4a482d4d","$version":"A","$type":"Unity.VisualScripting.OnMouseEnter","$id":"9"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-442.0,"y":-41.0},"guid":"9a357bdd-12aa-4fee-bfc1-1b95cbc61523","$version":"A","$type":"Unity.VisualScripting.OnMouseExit","$id":"11"},{"chainable":false,"parameterNames":["message"],"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":-190.0,"y":-249.0},"guid":"f9a29be8-29c9-4e5f-b45f-f5edcfab3d72","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"type":"System.String","value":{"$content":"Mouse
+      touching Shiba","$type":"System.String"},"defaultValues":{},"position":{"x":-311.0,"y":-123.0},"guid":"00793065-6db3-402e-820d-ff8dedbe5837","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"17"},{"chainable":false,"parameterNames":["message"],"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":-110.0,"y":-37.0},"guid":"2521ff42-c6d3-4187-a838-73df57da2ab0","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"19"},{"type":"System.String","value":{"$content":"Mouse
+      NO LONGER touching Shiba","$type":"System.String"},"defaultValues":{},"position":{"x":-321.0,"y":134.0},"guid":"e801fb35-dc31-47c9-a094-3239ef86d8b3","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"23"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"0a1b827d-d1be-425b-928a-778f2dc588a8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"f6de87bf-9782-431c-a2da-654d80e4bb4b","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"%message","guid":"7cfef25b-3118-4611-9dfc-8ed71dcac1db","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"output","destinationUnit":{"$ref":"19"},"destinationKey":"%message","guid":"9beda921-3ac6-4961-92ee-37fd39ba0ae6","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
